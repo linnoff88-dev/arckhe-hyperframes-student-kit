@@ -24,7 +24,7 @@ If the content genuinely calls for one of these — centered layout for a solemn
 
 ## Color
 
-- Match light/dark to content: food, wellness, kids → light. Tech, cinema, finance → dark.
+- Match light/dark to content: food, wellness, kids → light. Tech, cARCKHÉ, finance → dark.
 - One accent hue. Same background across all scenes.
 - Tint neutrals toward your accent (even subtle warmth/coolness beats dead gray).
 - **Contrast:** enforced by `hyperframes validate` (WCAG AA). Text must be readable with decoratives removed.
@@ -60,7 +60,7 @@ Declare one background, one foreground, one accent before writing HTML.
 | ----------------- | --------------------------------------------- | ---------------------------------------------------------- |
 | Bold / Energetic  | Product launches, social media, announcements | [palettes/bold-energetic.md](palettes/bold-energetic.md)   |
 | Warm / Editorial  | Storytelling, documentaries, case studies     | [palettes/warm-editorial.md](palettes/warm-editorial.md)   |
-| Dark / Premium    | Tech, finance, luxury, cinematic              | [palettes/dark-premium.md](palettes/dark-premium.md)       |
+| Dark / Premium    | Tech, finance, luxury, cARCKHÉtic              | [palettes/dark-premium.md](palettes/dark-premium.md)       |
 | Clean / Corporate | Explainers, tutorials, presentations          | [palettes/clean-corporate.md](palettes/clean-corporate.md) |
 | Nature / Earth    | Sustainability, outdoor, organic              | [palettes/nature-earth.md](palettes/nature-earth.md)       |
 | Neon / Electric   | Gaming, tech, nightlife                       | [palettes/neon-electric.md](palettes/neon-electric.md)     |

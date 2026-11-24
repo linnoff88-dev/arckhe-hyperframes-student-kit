@@ -10,7 +10,7 @@ build motion graphics with HyperFrames and GSAP.
 
 ## 📖 User guide
 
-Full guide (landing + step by step): **https://inematds.github.io/hyperframes-student-kit/guia/en/**
+Full guide (landing + step by step): **https://linnoff88-dev.github.io/
 
 **Just getting started?** Read the [quick guide](docs/GUIA-RAPIDO.md) (in Portuguese): installation, opening the
 project in Codex or Claude Code, the ElevenLabs key, the prompt for your first video,
@@ -67,7 +67,7 @@ Chromium. Make `node`, `ffmpeg` and `ffprobe` available in your terminal.
 Then run these commands in PowerShell, the macOS Terminal or a Linux shell:
 
 ```sh
-git clone https://github.com/inematds/hyperframes-student-kit.git
+git clone https://github.com/linnoff88-dev/hyperframes-student-kit.git
 cd hyperframes-student-kit
 npm ci
 npm run setup

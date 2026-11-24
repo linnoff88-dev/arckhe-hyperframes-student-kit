@@ -82,7 +82,7 @@ Which narration line plays over this beat.
 
 ### Visual description
 
-What the viewer sees — described cinematically, not as CSS specs. Use camera language (pan, zoom, drift, settle). Describe at least 5 visual elements, not just text + background. Think in layers — what's moving in the foreground, midground, background simultaneously?
+What the viewer sees — described cARCKHÉtically, not as CSS specs. Use camera language (pan, zoom, drift, settle). Describe at least 5 visual elements, not just text + background. Think in layers — what's moving in the foreground, midground, background simultaneously?
 
 ### Mood direction
 
@@ -90,7 +90,7 @@ Cultural and design references, not hex codes:
 
 - "Geometric, rhythmic, precise. Think Josef Albers or Bauhaus color studies."
 - "Warm workspace. Nice notebook energy, not technical blueprint."
-- "Cinematic title sequence. The kind of opening where you lean forward."
+- "CARCKHÉtic title sequence. The kind of opening where you lean forward."
 
 ### Assets
 
@@ -127,7 +127,7 @@ How this beat hands off to the next. Specify the type and parameters.
 **Shader transitions** (choose from `skills/hyperframes/references/transitions/shader-transitions.md`):
 
 - Cross-Warp Morph (organic, versatile) — 0.5-0.8s, power2.inOut
-- Cinematic Zoom (professional momentum) — 0.4-0.6s, power2.inOut
+- CARCKHÉtic Zoom (professional momentum) — 0.4-0.6s, power2.inOut
 - Gravitational Lens (otherworldly) — 0.6-1.0s, power2.inOut
 - Glitch (aggressive, high energy) — 0.3-0.5s
 - See `skills/hyperframes/references/transitions/shader-setup.md` for the full WebGL boilerplate

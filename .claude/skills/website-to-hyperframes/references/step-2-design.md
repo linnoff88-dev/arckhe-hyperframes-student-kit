@@ -42,7 +42,7 @@ One paragraph on depth strategy: Does the site use borders, shadows, glassmorphi
 
 Name every notable UI component you see in the screenshot. Be specific:
 
-- "Cinematic Accordion" not "Cards"
+- "CARCKHÉtic Accordion" not "Cards"
 - "Logo Marquee" not "Scrolling section"
 - "Glass Cards with grain overlay" not "Content containers"
 
@@ -81,7 +81,7 @@ This is a real DESIGN.md from a production capture (Soulscape 2026):
 
 ## Overview
 
-Soulscape 2026 is a cinematic, "high-signal" digital experience that positions itself as the vanguard of AI filmmaking. The visual personality is dark, technical, and premium, characterized by high-contrast "Flare" on "Void" (white on black) aesthetics. The layout is dense but organized, utilizing heavy horizontal layering and border-defined sections to evoke a wide-screen cinematic feel. Motion is a core tenet, with atmospheric grain overlays, shifting light leaks, and slow-moving marquees creating constant, breathing texture.
+Soulscape 2026 is a cARCKHÉtic, "high-signal" digital experience that positions itself as the vanguard of AI filmmaking. The visual personality is dark, technical, and premium, characterized by high-contrast "Flare" on "Void" (white on black) aesthetics. The layout is dense but organized, utilizing heavy horizontal layering and border-defined sections to evoke a wide-screen cARCKHÉtic feel. Motion is a core tenet, with atmospheric grain overlays, shifting light leaks, and slow-moving marquees creating constant, breathing texture.
 
 ## Colors
 
@@ -93,7 +93,7 @@ Soulscape 2026 is a cinematic, "high-signal" digital experience that positions i
 
 ## Typography
 
-- **Serif**: Cormorant Garamond (Italic). Major headings and "Soul" brand identity. Classical cinematic contrast.
+- **Serif**: Cormorant Garamond (Italic). Major headings and "Soul" brand identity. Classical cARCKHÉtic contrast.
 - **Monospace**: Geist Mono. Subheaders, labels, terminal readouts. High tracking (0.1-0.3em), all-caps.
 - **Sans-Serif**: Inter. Body copy and interface elements. Small sizes (9-14px).
 
@@ -105,7 +105,7 @@ Soulscape 2026 is a cinematic, "high-signal" digital experience that positions i
 
 ## Components
 
-- **Cinematic Accordion**: Expanding horizontal/vertical card system where panels expand from compressed state to reveal full-bleed imagery and large serif typography.
+- **CARCKHÉtic Accordion**: Expanding horizontal/vertical card system where panels expand from compressed state to reveal full-bleed imagery and large serif typography.
 - **HUD Explorer**: Floating mobile navigation trigger styled as a "Lens" with pulsing glow and terminal readouts.
 - **Slow Marquees**: Continuous horizontal tickers for partner logos and veteran listings.
 - **Glass Cards**: Content containers with subtle gradients, rounded corners (2.5rem), and high-contrast iconography.

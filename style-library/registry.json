@@ -6484,11 +6484,11 @@
           }
         },
         {
-          "id": "kallaway.t2.lower-third.cinemastrip",
+          "id": "kallaway.t2.lower-third.cARCKHÉstrip",
           "style": "kallaway",
           "tier": "tier2",
           "purpose": "lower-third",
-          "file": "02-kallaway/cards/tier2/t2-lt-cinemastrip.html",
+          "file": "02-kallaway/cards/tier2/t2-lt-cARCKHÉstrip.html",
           "slots": [
             "name",
             "role"
@@ -6498,8 +6498,8 @@
             "max": 10
           },
           "preview": {
-            "mp4": "02-kallaway/preview/kallaway.t2.lower-third.cinemastrip.mp4",
-            "poster": "02-kallaway/preview/kallaway.t2.lower-third.cinemastrip.png"
+            "mp4": "02-kallaway/preview/kallaway.t2.lower-third.cARCKHÉstrip.mp4",
+            "poster": "02-kallaway/preview/kallaway.t2.lower-third.cARCKHÉstrip.png"
           }
         },
         {

@@ -27,7 +27,7 @@ Instale Node.js 22+, Git, FFmpeg (com ffprobe) e Chrome ou Chromium.
 Depois:
 
 ```sh
-git clone https://github.com/inematds/hyperframes-student-kit.git
+git clone https://github.com/linnoff88-dev/hyperframes-student-kit.git
 cd hyperframes-student-kit
 npm ci
 npm run setup

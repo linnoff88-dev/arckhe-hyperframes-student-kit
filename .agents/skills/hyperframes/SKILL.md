@@ -30,7 +30,7 @@ Check in this order:
 2. **visual-style.md exists?** → Read it. Apply its `style_prompt_full` and structured fields. (Note: `visual-style.md` is a project-specific file. `visual-styles.md` is the style library with 8 named presets — different files.)
 3. **User named a style** (e.g., "Swiss Pulse", "dark and techy", "luxury brand")? → Read [visual-styles.md](./visual-styles.md) for the 8 named presets. Generate a minimal DESIGN.md with: `## Style Prompt` (one paragraph), `## Colors` (3-5 hex values with roles), `## Typography` (1-2 font families), `## What NOT to Do` (3-5 anti-patterns).
 4. **None of the above?** → Ask 3 questions before writing any HTML:
-   - What's the mood? (explosive / cinematic / fluid / technical / chaotic / warm)
+   - What's the mood? (explosive / cARCKHÉtic / fluid / technical / chaotic / warm)
    - Light or dark canvas?
    - Any specific brand colors, fonts, or visual references?
      Then generate a minimal DESIGN.md from the answers.

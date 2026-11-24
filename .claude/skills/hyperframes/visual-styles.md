@@ -10,14 +10,14 @@ Named visual identities for HyperFrames videos. Each style is grounded in a real
 
 | Style           | Mood                  | Best for                           | Primary shader                    |
 | --------------- | --------------------- | ---------------------------------- | --------------------------------- |
-| Swiss Pulse     | Clinical, precise     | SaaS, data, dev tools, metrics     | Cinematic Zoom or SDF Iris        |
+| Swiss Pulse     | Clinical, precise     | SaaS, data, dev tools, metrics     | CARCKHÉtic Zoom or SDF Iris        |
 | Velvet Standard | Premium, timeless     | Luxury, enterprise, keynotes       | Cross-Warp Morph                  |
 | Deconstructed   | Industrial, raw       | Tech launches, security, punk      | Glitch or Whip Pan                |
 | Maximalist Type | Loud, kinetic         | Big announcements, launches        | Ridged Burn                       |
 | Data Drift      | Futuristic, immersive | AI, ML, cutting-edge tech          | Gravitational Lens or Domain Warp |
 | Soft Signal     | Intimate, warm        | Wellness, personal stories, brand  | Thermal Distortion                |
 | Folk Frequency  | Cultural, vivid       | Consumer apps, food, communities   | Swirl Vortex or Ripple Waves      |
-| Shadow Cut      | Dark, cinematic       | Dramatic reveals, security, exposé | Domain Warp                       |
+| Shadow Cut      | Dark, cARCKHÉtic       | Dramatic reveals, security, exposé | Domain Warp                       |
 
 ---
 
@@ -29,7 +29,7 @@ Named visual identities for HyperFrames videos. Each style is grounded in a real
 - Helvetica or Inter Bold for headlines, Regular for labels. Numbers large (80–120px)
 - Grid-locked compositions. Every element snaps to an invisible 12-column grid
 - Animated counters count up from 0. Hard cuts, no decorative transitions
-- Transitions: Cinematic Zoom or SDF Iris (precise, geometric)
+- Transitions: CARCKHÉtic Zoom or SDF Iris (precise, geometric)
 
 **GSAP signature:** `expo.out`, `power4.out`. Entries are fast and snap into place. Nothing floats.
 
@@ -164,7 +164,7 @@ Swirl Vortex or Ripple Waves transitions. Joyful, celebratory energy.
 
 ## 8. Shadow Cut — Hans Hillmann
 
-**Mood:** Dark, cinematic | **Best for:** Security products, dramatic reveals, investigative content, intense launches
+**Mood:** Dark, cARCKHÉtic | **Best for:** Security products, dramatic reveals, investigative content, intense launches
 
 - Near-monochrome: deep blacks (`#0a0a0a`), cold greys (`#3a3a3a`), stark white + blood red (`#C1121F`) or toxic green (`#39FF14`)
 - Sharp angular text like film noir title cards. Heavy contrast, no softness
@@ -193,7 +193,7 @@ Slow creeping push-ins. Domain Warp transitions. The reveal IS the story.
 | AI, ML, speculative, futuristic    | Data Drift      |
 | Human, warm, personal, wellness    | Soft Signal     |
 | Cultural, fun, consumer, festive   | Folk Frequency  |
-| Dark, dramatic, intense, cinematic | Shadow Cut      |
+| Dark, dramatic, intense, cARCKHÉtic | Shadow Cut      |
 
 ---
 

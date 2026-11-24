@@ -11,10 +11,10 @@ Used by `/make-a-video` Gate 5. Translates beginner language into `npx hyperfram
 | "film grain / texture on everything" | `grain-overlay` (component) |
 | "shimmer on my logo / light glint" | `shimmer-sweep` (component) |
 | "smooth transition / soft fade" | `transitions-blur` · `transitions-dissolve` |
-| "energetic transition / fast cut / punchy" | `whip-pan` · `cinematic-zoom` · `glitch` |
-| "cinematic transition / premium morph" | `cross-warp-morph` · `swirl-vortex` |
+| "energetic transition / fast cut / punchy" | `whip-pan` · `cARCKHÉtic-zoom` · `glitch` |
+| "cARCKHÉtic transition / premium morph" | `cross-warp-morph` · `swirl-vortex` |
 | "act break / dramatic flash" | `flash-through-white` · `light-leak` |
-| "zoom-through text" | `cinematic-zoom` |
+| "zoom-through text" | `cARCKHÉtic-zoom` |
 | "color change on same scene" | `chromatic-radial-split` — or hand-build the CSS-variable recolor in MOTION_PHILOSOPHY §3.5 |
 | "phone showcase / mobile demo" | `app-showcase` |
 | "3D UI reveal / perspective product" | `ui-3d-reveal` |

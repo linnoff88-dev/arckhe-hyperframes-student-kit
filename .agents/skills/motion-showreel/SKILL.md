@@ -102,7 +102,7 @@ Leia `docs/TOOLS-AND-API-KEYS.md` primeiro. Escolha a fonte da música nesta ord
 1. **Uma faixa do próprio usuário**, com licença para o uso pretendido.
 2. **Biblioteca gratuita**: Pixabay Music (licença livre, sem atribuição) ou Freesound
    (confira a licença de cada faixa). Busque por "punchy electronic 128 bpm", "showreel",
-   "big drop". Quem tem o `inemavox` pode buscar e baixar direto:
+   "big drop". Quem tem o `ARCKHÉvox` pode buscar e baixar direto:
    `python3 musica_v1.py --query "electronic showreel 128 bpm" --min-duration 20 --outdir video-projects/meu-reel/assets/audio`.
 3. **Gerada (paga, opcional)**: Suno via Kie.ai. Só com confirmação:
 
@@ -138,7 +138,7 @@ Monte um kit de efeitos (pops, cliques, whooshes, glitch, ticks, shimmer, sub bo
 final e sons nativos da marca):
 
 1. **Biblioteca do usuário** ou **biblioteca gratuita** (Pixabay Sound Effects, Freesound).
-   Com o `inemavox`: `python3 sfx_v1.py --query "whoosh" --max-duration 3 --outdir video-projects/meu-reel/assets/audio/sfx`,
+   Com o `ARCKHÉvox`: `python3 sfx_v1.py --query "whoosh" --max-duration 3 --outdir video-projects/meu-reel/assets/audio/sfx`,
    um termo por som do kit.
 2. **Gerado (pago, opcional)**: `scripts/sfx.mjs` com ElevenLabs sound generation.
    Só com confirmação.

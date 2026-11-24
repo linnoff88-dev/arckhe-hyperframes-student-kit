@@ -45,7 +45,7 @@ Probe: industry · expertise level · platform they'll watch on · what should t
 **Q5. Frame rate?**
 - 30 fps (default, good for everything)
 - 60 fps (crisp UI, product demos, game footage)
-- 24 fps (cinematic)
+- 24 fps (cARCKHÉtic)
 
 **Q6. Platform / delivery constraints?**
 - Where will it play? (site hero · TikTok · LinkedIn · YouTube · internal deck · other)

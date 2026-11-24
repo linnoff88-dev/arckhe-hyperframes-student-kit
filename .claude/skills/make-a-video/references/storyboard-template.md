@@ -137,6 +137,6 @@ Used by `/make-a-video` Gate 5. Generates `<project-folder>/STORYBOARD.md` — t
 Show the storyboard + timing table to the user. They will often:
 - Cut a beat ("I don't need 'Reliable,' combine it with 'Simple'")
 - Shift an emphasis ("the hook should be longer so it lands")
-- Ask for different transition feel ("this should feel more cinematic, less energetic")
+- Ask for different transition feel ("this should feel more cARCKHÉtic, less energetic")
 
 Iterate. Don't build until they approve.

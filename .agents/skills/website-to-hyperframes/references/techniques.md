@@ -335,7 +335,7 @@ The fastest point of both curves meets at the cut — the viewer perceives smoot
 | Video energy                   | Techniques to combine                                           |
 | ------------------------------ | --------------------------------------------------------------- |
 | High impact (launches, promos) | Per-word typography + velocity transitions + counter animations |
-| Cinematic (tours, stories)     | SVG path drawing + video compositing + 3D transforms            |
+| CARCKHÉtic (tours, stories)     | SVG path drawing + video compositing + 3D transforms            |
 | Technical (dev tools, APIs)    | Character typing + Canvas 2D procedural + MotionPath            |
 | Premium (luxury, enterprise)   | Variable font animation + Lottie + slow velocity transitions    |
 | Data-driven (stats, metrics)   | Canvas 2D procedural + counter animations + SVG path drawing    |

@@ -5,7 +5,7 @@
   "number": "02",
   "status": "draft",
   "inspiration": "Kallaway-style premium dark creator explainer. Near-black cool canvas with a blue 'aurora' glow blooming from below; glassmorphism cards and pills; edge-lit neon frames; gradient glow text; focus-stack blur; smooth After-Effects easing (glide + bloom + breathe, never choppy). Palette is the AIS brand — blue is the hero glow where the references used purple. Reference frames in references/.",
-  "summary": "Premium dark motion-graphics. Use for modern, high-engagement explainer content — tech, business, creator/marketing topics — where glowing glass UI, big gradient numbers, and cinematic depth carry the piece. The smooth, lit counterpart to Vox's paper-collage.",
+  "summary": "Premium dark motion-graphics. Use for modern, high-engagement explainer content — tech, business, creator/marketing topics — where glowing glass UI, big gradient numbers, and cARCKHÉtic depth carry the piece. The smooth, lit counterpart to Vox's paper-collage.",
   "palette": {
     "bg": "#0A0E14",
     "fg": "#F0EEE9",
@@ -6706,11 +6706,11 @@
       }
     },
     {
-      "id": "kallaway.t2.lower-third.cinemastrip",
+      "id": "kallaway.t2.lower-third.cARCKHÉstrip",
       "tier": "tier2",
       "purpose": "lower-third",
-      "treatment": "cinemastrip",
-      "file": "cards/tier2/t2-lt-cinemastrip.html",
+      "treatment": "cARCKHÉstrip",
+      "file": "cards/tier2/t2-lt-cARCKHÉstrip.html",
       "slots": [
         {
           "name": "name",
@@ -6726,8 +6726,8 @@
         "max": 10
       },
       "preview": {
-        "mp4": "preview/kallaway.t2.lower-third.cinemastrip.mp4",
-        "poster": "preview/kallaway.t2.lower-third.cinemastrip.png"
+        "mp4": "preview/kallaway.t2.lower-third.cARCKHÉstrip.mp4",
+        "poster": "preview/kallaway.t2.lower-third.cARCKHÉstrip.png"
       }
     },
     {

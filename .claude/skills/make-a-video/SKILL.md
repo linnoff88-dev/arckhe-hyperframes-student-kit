@@ -34,7 +34,7 @@ Ask one question at a time via `AskUserQuestion`, multiple-choice where possible
 2. Who's the audience? (open-ended)
 3. Target duration? (10–20s short · 20–45s promo · 45–90s explainer · 1.5–3 min lesson · custom)
 4. Aspect ratio? (16:9 1920×1080 · 9:16 1080×1920 · 1:1 1080×1080)
-5. Frame rate? (30 default · 60 for crisp UI · 24 cinematic)
+5. Frame rate? (30 default · 60 for crisp UI · 24 cARCKHÉtic)
 6. Platform / delivery constraints? (file size · deadline · where it'll play)
 
 **Gate:** all six captured. If the answer is 9:16 + face-cam, plan to hand off to `/short-form-edit` at Gate 5.

@@ -30,7 +30,7 @@ You get this backwards constantly. Ease-in for entrances feels sluggish. Ease-ou
 - Fast (0.15-0.3s) — energy, urgency, confidence
 - Medium (0.3-0.5s) — professional, most content
 - Slow (0.5-0.8s) — gravity, luxury, contemplation
-- Very slow (0.8-2.0s) — cinematic, emotional, atmospheric
+- Very slow (0.8-2.0s) — cARCKHÉtic, emotional, atmospheric
 
 ### Scene structure: build / breathe / resolve
 

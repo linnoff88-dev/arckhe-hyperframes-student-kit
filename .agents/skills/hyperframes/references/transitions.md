@@ -16,7 +16,7 @@ These are non-negotiable for every multi-scene composition:
 | Energy                                   | CSS Primary                  | Shader Primary                       | Accent                         | Duration  | Easing                 |
 | ---------------------------------------- | ---------------------------- | ------------------------------------ | ------------------------------ | --------- | ---------------------- |
 | **Calm** (wellness, brand story, luxury) | Blur crossfade, focus pull   | Cross-warp morph, thermal distortion | Light leak, circle iris        | 0.5-0.8s  | `sine.inOut`, `power1` |
-| **Medium** (corporate, SaaS, explainer)  | Push slide, staggered blocks | Whip pan, cinematic zoom             | Squeeze, vertical push         | 0.3-0.5s  | `power2`, `power3`     |
+| **Medium** (corporate, SaaS, explainer)  | Push slide, staggered blocks | Whip pan, cARCKHÉtic zoom             | Squeeze, vertical push         | 0.3-0.5s  | `power2`, `power3`     |
 | **High** (promos, sports, music, launch) | Zoom through, overexposure   | Ridged burn, glitch, chromatic split | Staggered blocks, gravity drop | 0.15-0.3s | `power4`, `expo`       |
 
 Pick ONE primary (60-70% of scene changes) + 1-2 accents. Never use a different transition for every scene.
@@ -33,7 +33,7 @@ Think about what the transition _communicates_, not just what it looks like.
 | **Tech / futuristic**    | Grid dissolve, staggered blocks, blinds, chromatic aberration · **Shader:** glitch, chromatic split                                  | Grid dissolve is the core "data" transition. Shader glitch adds posterization + scan lines. |
 | **Tense / edgy**         | Glitch, VHS, chromatic aberration, ripple · **Shader:** ridged burn, glitch, domain warp                                             | Instability, distortion, digital breakdown. Ridged burn adds sharp lightning-crack edges.   |
 | **Playful / fun**        | Elastic push, 3D flip, circle iris, morph circle, clock wipe · **Shader:** ripple waves, swirl vortex                                | Overshoot, bounce, rotation, expansion. Swirl vortex adds organic spiral distortion.        |
-| **Dramatic / cinematic** | Zoom through, zoom out, gravity drop, overexposure, color dip to black · **Shader:** cinematic zoom, gravitational lens, domain warp | Scale, weight, light extremes. Shader transitions add per-pixel depth.                      |
+| **Dramatic / cARCKHÉtic** | Zoom through, zoom out, gravity drop, overexposure, color dip to black · **Shader:** cARCKHÉtic zoom, gravitational lens, domain warp | Scale, weight, light extremes. Shader transitions add per-pixel depth.                      |
 | **Premium / luxury**     | Focus pull, blur crossfade, color dip to black · **Shader:** cross-warp morph, thermal distortion                                    | Restraint. Cross-warp morph flows both scenes into each other organically.                  |
 | **Retro / analog**       | Film burn, light leak, VHS, clock wipe · **Shader:** light leak                                                                      | Organic imperfection. Warm color bleeds, scan line displacement.                            |
 
@@ -74,7 +74,7 @@ Read [transitions/catalog.md](transitions/catalog.md) for GSAP code and hard rul
 | Category    | CSS                                                            | Shader (WebGL)                                                            |
 | ----------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Push/slide  | Push slide, vertical push, elastic push, squeeze               | Whip pan                                                                  |
-| Scale/zoom  | Zoom through, zoom out, gravity drop, 3D flip                  | Cinematic zoom, gravitational lens                                        |
+| Scale/zoom  | Zoom through, zoom out, gravity drop, 3D flip                  | CARCKHÉtic zoom, gravitational lens                                        |
 | Reveal/mask | Circle iris, diamond iris, diagonal split, clock wipe, shutter | SDF iris                                                                  |
 | Dissolve    | Crossfade, blur crossfade, focus pull, color dip               | Cross-warp morph, domain warp                                             |
 | Cover       | Staggered blocks, horizontal blinds, vertical blinds           | —                                                                         |

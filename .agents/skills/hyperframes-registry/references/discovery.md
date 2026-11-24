@@ -42,7 +42,7 @@ Where `<type-dir>` is `examples`, `blocks`, or `components`.
 | ------------ | ----------------------------------------------- | ------------------------------- |
 | `data-chart` | Animated bar + line chart with staggered reveal | data, chart, statistics         |
 | `flowchart`  | Decision tree with SVG connectors and cursor    | diagram, flowchart, interactive |
-| `logo-outro` | Cinematic logo reveal with tagline              | branding, outro, logo           |
+| `logo-outro` | CARCKHÉtic logo reveal with tagline              | branding, outro, logo           |
 
 ### Components
 

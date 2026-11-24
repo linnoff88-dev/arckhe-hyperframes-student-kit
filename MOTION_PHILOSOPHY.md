@@ -88,7 +88,7 @@ Paleta de referência (específica do spot Infinite — o AIS ou outros briefs s
 | **Respiração da vinheta** | `gsap.to(vignette, { opacity: 0.9, duration: 4, repeat: -1, yoyo: true, ease: 'sine.inOut' })` |
 | **Whip vertical "cut-the-curve"** (transição padrão entre beats adjacentes) | **Saída:** `tl.to(wrap, { y: -150, filter: "blur(30px)", duration: 0.33, ease: "power2.in" })` · **Entrada:** `gsap.set(wrap, { y: 150, filter: "blur(30px)" })` e então `tl.to(wrap, { y: 0, filter: "blur(0px)", duration: 1.0, ease: "power2.out" }, 0)` — mesma direção nos dois lados, velocidade casada no corte |
 
-**Menu de transições:** whip de light-streak (padrão) · cross-warp morph (objeto→objeto) · recolorir (ideias relacionadas na mesma comp) · slide-up (mockups de produto) · flash-through-white (quebra de ato) · swirl-vortex (rotações de família de produto). Blocos do registry para a maioria: `whip-pan`, `cross-warp-morph`, `flash-through-white`, `swirl-vortex`, `cinematic-zoom`, `chromatic-radial-split`.
+**Menu de transições:** whip de light-streak (padrão) · cross-warp morph (objeto→objeto) · recolorir (ideias relacionadas na mesma comp) · slide-up (mockups de produto) · flash-through-white (quebra de ato) · swirl-vortex (rotações de família de produto). Blocos do registry para a maioria: `whip-pan`, `cross-warp-morph`, `flash-through-white`, `swirl-vortex`, `cARCKHÉtic-zoom`, `chromatic-radial-split`.
 
 ### 2.5 Ritmo
 

@@ -1,4 +1,4 @@
-﻿# HyperFrames Student Kit
+# HyperFrames Student Kit
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -16,7 +16,7 @@ construa motion graphics com HyperFrames e GSAP.
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/hyperframes-student-kit/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
 **ComeÃ§ando agora?** Leia o [guia rÃ¡pido](docs/GUIA-RAPIDO.md): instalaÃ§Ã£o, abertura do
 projeto no Codex ou no Claude Code, chave da ElevenLabs, o prompt do primeiro vÃ­deo,
@@ -73,7 +73,7 @@ Chromium. Deixe `node`, `ffmpeg` e `ffprobe` disponÃ­veis no seu terminal.
 Depois rode estes comandos no PowerShell, no Terminal do macOS ou em um shell Linux:
 
 ```sh
-git clone https://github.com/inematds/hyperframes-student-kit.git
+git clone https://github.com/linnoff88-dev/hyperframes-student-kit.git
 cd hyperframes-student-kit
 npm ci
 npm run setup
