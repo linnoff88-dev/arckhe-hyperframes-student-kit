@@ -1,6 +1,6 @@
 # Style Library — Guia
 
-A biblioteca de estilos de cards de motion graphics de onde o **Agent 3** puxa para adicionar cards em camadas (tiers) a um vídeo. Cada "estilo" é uma identidade visual nomeada (ex.: um look de explainer inspirado na Vox, ou um look de YouTuber com animação suave) com seu próprio conjunto de variantes de card. Este arquivo é o contrato: leia-o antes de adicionar um estilo ou um card.
+A biblioteca de estilos de cards de motion graphics de onde o **Agent 3** puxa para adicionar cards em camadas (tiers) a um vídeo. Cada "estilo" é uma identidade visual nomeada (ex.: um look de explainer inspirado na Vox, ou um look de YouTuber com animaçêo suave) com seu próprio conjunto de variantes de card. Este arquivo é o contrato: leia-o antes de adicionar um estilo ou um card.
 
 ## Modelo mental
 
@@ -37,15 +37,15 @@ NN-slug/
 └── preview/          ← per-card preview: <card-id>.mp4 (2-3s loop) + <card-id>.png (poster)
 ```
 
-Commitados: `style.json`, `DESIGN.md`, `tokens.css`, os arquivos `.html` dos cards, as especificações de design e quaisquer posters de preview originais. A versão para estudantes exclui screenshots de referência de terceiros. Gitignorados: os loops **MP4** de preview, mais pesados (regeneráveis a partir dos cards).
+Commitados: `style.json`, `DESIGN.md`, `tokens.css`, os arquivos `.html` dos cards, as especificações de design e quaisquer posters de preview originais. A versêo para estudantes exclui screenshots de referência de terceiros. Gitignorados: os loops **MP4** de preview, mais pesados (regeneráveis a partir dos cards).
 
 ## O contrato do card
 
-Todo card é uma **sub-composição HyperFrames independente** — um `.html` autocontido que faz preview e renderiza sozinho, e que o Agent 3 monta num vídeo via `data-composition-src`. Cada card DEVE:
+Todo card é uma **sub-composiçêo HyperFrames independente** — um `.html` autocontido que faz preview e renderiza sozinho, e que o Agent 3 monta num vídeo via `data-composition-src`. Cada card DEVE:
 
 1. Ter um `<div>` raiz com `id`, `data-composition-id`, `data-start="0"`, `data-width="1920"`, `data-height="1080"`.
-2. Registrar exatamente uma timeline GSAP **pausada** em `window.__timelines["<data-composition-id>"]` (chave === id da composição).
-3. Puxar todas as cores / fontes / easings das variáveis de `tokens.css` — nunca hardcodar hex ou nomes de fonte. (Esta é a regra "layout sob medida, tokens compartilhados": os layouts são construídos à mão por estilo; paleta/tipografia vivem nos tokens para que fiquem consistentes e ajustáveis.)
+2. Registrar exatamente uma timeline GSAP **pausada** em `window.__timelines["<data-composition-id>"]` (chave === id da composiçêo).
+3. Puxar todas as cores / fontes / easings das variáveis de `tokens.css` — nunca hardcodar hex ou nomes de fonte. (Esta é a regra "layout sob medida, tokens compartilhados": os layouts sêo construídos à mêo por estilo; paleta/tipografia vivem nos tokens para que fiquem consistentes e ajustáveis.)
 4. **Disciplina de fundo por tier:**
    - `tier1` (takeover) → fundo opaco em frame inteiro (ele substitui o vídeo).
    - `tier2` (suporte) → transparente em todo lugar exceto no card em si (ele sobrepõe o vídeo; nunca cubra o rosto de quem fala).
@@ -56,7 +56,7 @@ Um card está "pronto" quando passa limpo no lint, faz preview corretamente no S
 
 ### Forma standalone vs. montada
 
-Os cards são escritos como **composições standalone** — o div `data-composition-id` fica diretamente no `<body>` e o card inclui seu próprio `<script src=".../gsap.min.js">`, então faz preview/renderiza sozinho. Quando o **Agent 3 monta** um card num vídeo real, ele envolve o card num `<template>` e o referencia com `data-composition-src` (a forma de sub-composição do HyperFrames); o pai fornece o GSAP e o `data-duration`. O envelopamento é uma transformação mecânica que o Agent 3 executa na hora da montagem — os cards da biblioteca permanecem na forma standalone.
+Os cards sêo escritos como **composições standalone** — o div `data-composition-id` fica diretamente no `<body>` e o card inclui seu próprio `<script src=".../gsap.min.js">`, entêo faz preview/renderiza sozinho. Quando o **Agent 3 monta** um card num vídeo real, ele envolve o card num `<template>` e o referencia com `data-composition-src` (a forma de sub-composiçêo do HyperFrames); o pai fornece o GSAP e o `data-duration`. O envelopamento é uma transformaçêo mecânica que o Agent 3 executa na hora da montagem — os cards da biblioteca permanecem na forma standalone.
 
 ## Tiers e propósitos (a taxonomia pela qual o Agent 3 consulta)
 
@@ -64,9 +64,9 @@ Os cards são escritos como **composições standalone** — o div `data-composi
 - **tier2 — suporte**, propósitos: `label`, `list`, `equation`, `definition`, `lower-third`
 - **custom** — qualquer outra coisa; dê a ele uma tag de propósito clara.
 
-O Agent 3 pede ao registry "um card `tier1` `stat` no estilo `vox-explainer`", preenche os slots e sincroniza com a transcrição.
+O Agent 3 pede ao registry "um card `tier1` `stat` no estilo `vox-explainer`", preenche os slots e sincroniza com a transcriçêo.
 
-## O loop de construção (por estilo)
+## O loop de construçêo (por estilo)
 
 1. **Scaffold:** `node scripts/style-library/new-style.mjs <NN> <slug>` → clona `_blueprint/` para `NN-slug/`.
 2. **Subir referências** em `NN-slug/references/`.
@@ -78,9 +78,9 @@ O Agent 3 pede ao registry "um card `tier1` `stat` no estilo `vox-explainer`", p
 
 ## Previews
 
-O movimento é metade da identidade, então os previews são loops MP4 curtos (2-3s) + um PNG de poster, um por card, no `preview/` do estilo. Como cada card é uma composição válida, o preview é produzido renderizando o card sozinho (via CLI do HyperFrames) e capturando o frame 1 como poster. O script de preview é adicionado assim que o primeiro card real existir (para que seja testado contra algo real).
+O movimento é metade da identidade, entêo os previews sêo loops MP4 curtos (2-3s) + um PNG de poster, um por card, no `preview/` do estilo. Como cada card é uma composiçêo válida, o preview é produzido renderizando o card sozinho (via CLI do HyperFrames) e capturando o frame 1 como poster. O script de preview é adicionado assim que o primeiro card real existir (para que seja testado contra algo real).
 
 ## Notas
 
-- Os `style-templates/` do kit (dark-graph-paper, left-glass-popout) são **apenas referência** — não fazem parte desta biblioteca. Pegue ideias emprestadas, não porte por atacado.
-- `MOTION_PHILOSOPHY.md` e `.claude/skills/hyperframes/` (palettes, transitions, typography, visual-styles) são recursos de ofício compartilhados dos quais todo estilo pode se valer.
+- Os `style-templates/` do kit (dark-graph-paper, left-glass-popout) sêo **apenas referência** — nêo fazem parte desta biblioteca. Pegue ideias emprestadas, nêo porte por atacado.
+- `MOTION_PHILOSOPHY.md` e `.claude/skills/hyperframes/` (palettes, transitions, typography, visual-styles) sêo recursos de ofício compartilhados dos quais todo estilo pode se valer.

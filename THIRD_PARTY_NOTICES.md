@@ -1,9 +1,9 @@
 # Procedência dos recursos
 
-Este kit reúne fluxos de trabalho originais do workspace, orientação de design, templates e
+Este kit reúne fluxos de trabalho originais do workspace, orientaçêo de design, templates e
 implementações de cards para alunos. Os novos recursos do pipeline excluem gravações de origem
 privadas e screenshots de referência privados. A mídia de exemplo e os assets de marca já
-publicados anteriormente no student kit original permanecem inalterados; a inclusão deles não
+publicados anteriormente no student kit original permanecem inalterados; a inclusêo deles nêo
 concede direitos de terceiros.
 
 - HyperFrames: https://github.com/heygen-com/hyperframes (Apache-2.0).
@@ -14,19 +14,19 @@ concede direitos de terceiros.
   node_modules/gsap e https://gsap.com/community/standard-license/.
 - Alguns estilos da biblioteca referenciam Google Fonts. As licenças das fontes permanecem com
   seus editores. Instale e preserve as licenças aplicáveis ao localizar as fontes.
-- Vox, Kallaway e Infinite são nomes de referência estética. Esses templates não são
+- Vox, Kallaway e Infinite sêo nomes de referência estética. Esses templates nêo sêo
   assets oficiais de marca nem têm endosso desses criadores ou organizações.
 
 Nenhum relicenciamento geral de componentes de terceiros está implícito. Veja LICENSE para a
-permissão MIT do material original do student kit. Os recursos importados do pipeline
-mantêm a concessão em licenses/PIPELINE-USE-PERMISSION.txt. Isso inclui as skills do
-pipeline adicionadas, a biblioteca de estilos, os templates, as ferramentas de edição
+permissêo MIT do material original do student kit. Os recursos importados do pipeline
+mantêm a concessêo em licenses/PIPELINE-USE-PERMISSION.txt. Isso inclui as skills do
+pipeline adicionadas, a biblioteca de estilos, os templates, as ferramentas de ediçêo
 compartilhadas e o novo fluxo de short-form. Avisos de terceiros prevalecem sobre essas
 concessões para os respectivos assets.
 
-Nomes, handles, estatísticas e rótulos de fonte dentro dos cards são placeholders
+Nomes, handles, estatísticas e rótulos de fonte dentro dos cards sêo placeholders
 ilustrativos. Substitua-os pelo seu próprio texto verificado antes de publicar um vídeo.
 
-As imagens de exemplo em docs/images/ são fotos simuladas, geradas localmente, e não
-representam pessoas reais. Elas não concedem direitos sobre marcas de terceiros nem sobre
+As imagens de exemplo em docs/images/ sêo fotos simuladas, geradas localmente, e nêo
+representam pessoas reais. Elas nêo concedem direitos sobre marcas de terceiros nem sobre
 qualquer mídia incorporada.

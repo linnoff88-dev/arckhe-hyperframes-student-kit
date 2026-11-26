@@ -1,4 +1,4 @@
-# Configuração do Codex
+# Configuraçêo do Codex
 
 Abra a pasta deste projeto no Codex. O `AGENTS.md` contém o guia compartilhado do workspace;
 o Codex descobre os pacotes completos de skills em `.agents/skills/` automaticamente.
@@ -11,11 +11,11 @@ node scripts/sync-codex-skills.mjs
 node scripts/sync-codex-skills.mjs --check
 ```
 
-O espelho usa arquivos reais para que usuários de Windows não precisem de privilégios de symlink.
-Mantenha `AGENTS.md` e `CLAUDE.md` sincronizados. A configuração do projeto não mexe nas
-configurações de modelo, autenticação, sandbox e aprovação do aluno.
+O espelho usa arquivos reais para que usuários de Windows nêo precisem de privilégios de symlink.
+Mantenha `AGENTS.md` e `CLAUDE.md` sincronizados. A configuraçêo do projeto nêo mexe nas
+configurações de modelo, autenticaçêo, sandbox e aprovaçêo do aluno.
 As configurações do projeto carregam depois que o usuário confia no projeto. Reinicie o Codex
-se as skills novas não aparecerem. O Claude Code usa os arquivos canônicos de `.claude/skills/`.
+se as skills novas nêo aparecerem. O Claude Code usa os arquivos canônicos de `.claude/skills/`.
 
 Referências oficiais: [descoberta de skills](https://learn.chatgpt.com/docs/build-skills)
-e [configuração de projeto](https://learn.chatgpt.com/docs/config-file/config-basic).
+e [configuraçêo de projeto](https://learn.chatgpt.com/docs/config-file/config-basic).

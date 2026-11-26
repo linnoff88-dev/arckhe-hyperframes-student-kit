@@ -1,24 +1,24 @@
 # Ferramentas, contas e chaves de API
 
-O kit usa **ElevenLabs Scribe para transcrição** e **Kie.ai para vídeo e imagens
-gerados** por padrão. São os serviços preferidos do kit, não requisitos para toda
-edição. Traga suas próprias contas e créditos e configure só o que você usar.
+O kit usa **ElevenLabs Scribe para transcriçêo** e **Kie.ai para vídeo e imagens
+gerados** por padrêo. Sêo os serviços preferidos do kit, nêo requisitos para toda
+ediçêo. Traga suas próprias contas e créditos e configure só o que você usar.
 
 ## O que você precisa
 
-| Ferramenta ou serviço | Quando você precisa | Configuração e custo |
+| Ferramenta ou serviço | Quando você precisa | Configuraçêo e custo |
 | --- | --- | --- |
-| Codex ou Claude Code | Para seguir as skills de edição guiadas pelo agente | Seu próprio acesso ao assistente. Os créditos de serviços externos são separados. |
-| Node.js 22+, npm, Git, FFmpeg com ffprobe e Chrome/Chromium | Edição, preview e renderização locais | Instale no seu computador. Veja a [configuração](SETUP.md). |
-| HyperFrames e GSAP | Composições de vídeo e animação | Instalados pelo `npm ci`. A renderização roda localmente. Alguns templates usam fontes online ou CDNs; localize os assets escolhidos para a renderização final. |
-| ElevenLabs Scribe | Padrão do kit para transcrição de fala | Sua própria chave com acesso a `speech_to_text` e uso disponível. O helper incluído envia o áudio para a ElevenLabs. |
-| OpenAI Whisper API | Transcrição alternativa na nuvem | Sua própria chave de API da OpenAI e faturamento de API. Peça ao assistente para configurar a chamada e normalizar os timestamps de palavra. |
-| Whisper local ou whisper.cpp | Transcrição alternativa no seu computador | Instalação separada de runtime e modelo. Sem chave de transcrição na nuvem; precisa de download de modelos, espaço em disco e processamento local. |
+| Codex ou Claude Code | Para seguir as skills de ediçêo guiadas pelo agente | Seu próprio acesso ao assistente. Os créditos de serviços externos sêo separados. |
+| Node.js 22+, npm, Git, FFmpeg com ffprobe e Chrome/Chromium | Ediçêo, preview e renderizaçêo locais | Instale no seu computador. Veja a [configuraçêo](SETUP.md). |
+| HyperFrames e GSAP | Composições de vídeo e animaçêo | Instalados pelo `npm ci`. A renderizaçêo roda localmente. Alguns templates usam fontes online ou CDNs; localize os assets escolhidos para a renderizaçêo final. |
+| ElevenLabs Scribe | Padrêo do kit para transcriçêo de fala | Sua própria chave com acesso a `speech_to_text` e uso disponível. O helper incluído envia o áudio para a ElevenLabs. |
+| OpenAI Whisper API | Transcriçêo alternativa na nuvem | Sua própria chave de API da OpenAI e faturamento de API. Peça ao assistente para configurar a chamada e normalizar os timestamps de palavra. |
+| Whisper local ou whisper.cpp | Transcriçêo alternativa no seu computador | Instalaçêo separada de runtime e modelo. Sem chave de transcriçêo na nuvem; precisa de download de modelos, espaço em disco e processamento local. |
 | Kie.ai | B-roll em movimento, imagens e outros assets gerados (opcional) | Sua própria conta, chave e créditos. Filmagens existentes e assets fornecidos podem ser usados no lugar. |
-| Sua filmagem, logos, fontes, música e efeitos sonoros | Montar a edição em si | Forneça assets que você pode usar. O kit não inclui assinatura de mídia de estoque ou de música. |
+| Sua filmagem, logos, fontes, música e efeitos sonoros | Montar a ediçêo em si | Forneça assets que você pode usar. O kit nêo inclui assinatura de mídia de estoque ou de música. |
 
-O starter sintético e as verificações não precisam de API paga de transcrição ou
-geração. Escolha um provedor só quando a próxima etapa precisar dele.
+O starter sintético e as verificações nêo precisam de API paga de transcriçêo ou
+geraçêo. Escolha um provedor só quando a próxima etapa precisar dele.
 
 ## ElevenLabs: o helper incluído
 
@@ -31,28 +31,28 @@ node scripts/transcribe-elevenlabs.mjs video-projects/my-video/assets/raw.mp4
 
 O helper grava um JSON com timing por palavra ao lado do arquivo de entrada. Reutilize
 um transcript verificado em vez de pagar para transcrever o mesmo take de novo. Veja a
-[documentação oficial da API do Scribe](https://elevenlabs.io/docs/api-reference/speech-to-text/convert)
+[documentaçêo oficial da API do Scribe](https://elevenlabs.io/docs/api-reference/speech-to-text/convert)
 para as opções de modelo e detalhes de uso atuais.
 
-## Whisper e outras alternativas de transcrição
+## Whisper e outras alternativas de transcriçêo
 
 Você pode pedir ao assistente para usar outro provedor. O script
 `transcribe-elevenlabs.mjs` incluído chama somente a ElevenLabs; trocar a chave
-não muda o provedor dele.
+nêo muda o provedor dele.
 
 Para a API da OpenAI, use `whisper-1`, `response_format="verbose_json"` e
 `timestamp_granularities=["word"]`. Guarde `OPENAI_API_KEY` localmente. Confira os
 limites de upload atuais antes de enviar gravações longas; divida o áudio quando
 necessário e preserve os offsets de cada trecho. Veja o [guia da OpenAI](https://developers.openai.com/api/docs/guides/speech-to-text).
 
-Para transcrição local, peça ao assistente para configurar o
+Para transcriçêo local, peça ao assistente para configurar o
 [OpenAI Whisper](https://github.com/openai/whisper) ou o
 [whisper.cpp](https://github.com/ggml-org/whisper.cpp). O Whisper em Python exige
-Python e as dependências do modelo; o whisper.cpp tem sua própria instalação. Nenhum
+Python e as dependências do modelo; o whisper.cpp tem sua própria instalaçêo. Nenhum
 dos dois é instalado pelo `npm ci`.
 
 As ferramentas de corte exigem este formato comum, com **tempos por palavra em segundos**
-na linha do tempo exata da gravação de origem:
+na linha do tempo exata da gravaçêo de origem:
 
 ```json
 {
@@ -66,21 +66,21 @@ na linha do tempo exata da gravação de origem:
 ```
 
 Peça ao assistente para mapear o campo `word` do provedor para `text` quando necessário,
-preservar os tempos numéricos de início/fim e obter a duração completa da origem pelo ffprobe.
-Parágrafos, legendas SRT e transcripts só por segmento não fornecem o timing por
-palavra exigido. Solicite timestamps de palavra ou faça alinhamento; não invente timing.
+preservar os tempos numéricos de início/fim e obter a duraçêo completa da origem pelo ffprobe.
+Parágrafos, legendas SRT e transcripts só por segmento nêo fornecem o timing por
+palavra exigido. Solicite timestamps de palavra ou faça alinhamento; nêo invente timing.
 Edições posteriores precisam retemporizar as palavras usando a EDL delas. Planos de
 short-form também rastreiam `sourceStart` e `sourceEnd`.
 
 Copie um dos prompts:
 
-> Use OpenAI Whisper em vez de ElevenLabs para esta gravação. Use minha chave de API
+> Use OpenAI Whisper em vez de ElevenLabs para esta gravaçêo. Use minha chave de API
 > configurada localmente, solicite timestamps de palavra e normalize o resultado para
 > este kit antes de cortar. Preserve a origem e verifique o timing contra o áudio dela.
 
-> Use Whisper local para a transcrição. Confira primeiro a instalação e os downloads
+> Use Whisper local para a transcriçêo. Confira primeiro a instalaçêo e os downloads
 > de modelo, depois normalize os timestamps de palavra para este kit. Mantenha a
-> transcrição local e use minha filmagem e meus assets sem geração paga.
+> transcriçêo local e use minha filmagem e meus assets sem geraçêo paga.
 
 ## Kie.ai: vídeo e assets gerados
 
@@ -89,21 +89,21 @@ O kit usa o [Kie.ai](https://kie.ai/) para vídeo e imagens gerados. Defina
 [guia oficial da API](https://docs.kie.ai/) para chaves, requisições por modelo,
 status de tarefas e créditos.
 
-A skill de short-form descreve um fluxo com Kie; o kit **não** inclui um script
-universal de geração Kie nem uma conta conectada. A skill `motion-showreel` inclui um
+A skill de short-form descreve um fluxo com Kie; o kit **nêo** inclui um script
+universal de geraçêo Kie nem uma conta conectada. A skill `motion-showreel` inclui um
 cliente pequeno (`scripts/kie.mjs`) para os três assets do showreel: música instrumental
 Suno, stills Seedream a partir do logo e movimentos de câmera Kling. Ele é opcional: com
-assinatura Kling AI, prefira o CLI oficial `kling` (veja a seção abaixo). Peça ao assistente para configurar
-o modelo escolhido usando a documentação atual. Adicionar a chave sozinha não cria
-uma integração. Entradas de modelo, formatos, disponibilidade e custos em créditos variam.
+assinatura Kling AI, prefira o CLI oficial `kling` (veja a seçêo abaixo). Peça ao assistente para configurar
+o modelo escolhido usando a documentaçêo atual. Adicionar a chave sozinha nêo cria
+uma integraçêo. Entradas de modelo, formatos, disponibilidade e custos em créditos variam.
 
 Prepare os assets propostos e o custo esperado antes de qualquer trabalho pago que você
-ainda não tenha autorizado. Guarde os IDs de tarefa, reutilize saídas bem-sucedidas e
+ainda nêo tenha autorizado. Guarde os IDs de tarefa, reutilize saídas bem-sucedidas e
 salve os resultados escolhidos dentro dos assets do seu projeto privado. Inspecione
-movimento, duração, proporção e enquadramento deles na edição final.
+movimento, duraçêo, proporçêo e enquadramento deles na ediçêo final.
 
-> Use Kie.ai para B-roll em movimento nas cenas aprovadas. Confira minha configuração
-> local e a documentação atual do modelo, depois me mostre os assets que você propõe e
+> Use Kie.ai para B-roll em movimento nas cenas aprovadas. Confira minha configuraçêo
+> local e a documentaçêo atual do modelo, depois me mostre os assets que você propõe e
 > o custo esperado em créditos. Reutilize a filmagem existente onde ela couber.
 
 ## Kling AI pela sua assinatura (preferido para o showreel)
@@ -120,38 +120,38 @@ assinatura: confirme antes de gerar.
 
 A `motion-showreel` funciona só com áudio seu ou gratuito: Pixabay Music e Pixabay
 Sound Effects (licença livre) ou Freesound (confira a licença de cada arquivo). Os
-scripts de grade, emenda e mixagem são locais (FFmpeg). Como alternativa paga opcional,
+scripts de grade, emenda e mixagem sêo locais (FFmpeg). Como alternativa paga opcional,
 `scripts/sfx.mjs` gera um kit de SFX com ElevenLabs sound generation (usa
 `ELEVENLABS_API_KEY`, com acesso a sound effects) e `kie.mjs music` gera música Suno.
 
 ## Outras ferramentas opcionais citadas pelas skills incluídas
 
-São opções de fluxo, não uma afirmação de que todo exemplo as usou:
+Sêo opções de fluxo, nêo uma afirmaçêo de que todo exemplo as usou:
 
-- **Narração:** os guias do HyperFrames descrevem o Kokoro TTS local, com configuração
-  extra de runtime e modelo. ElevenLabs e HeyGen TTS também são mencionados; cada um
+- **Narraçêo:** os guias do HyperFrames descrevem o Kokoro TTS local, com configuraçêo
+  extra de runtime e modelo. ElevenLabs e HeyGen TTS também sêo mencionados; cada um
   precisa do seu acesso ao serviço e de uma API ou conector configurado.
 - **Captura de site:** o Gemini pode, opcionalmente, fornecer descrições de imagem mais
-  ricas. A captura básica não exige essa chave.
-- **Outra transcrição:** a referência do framework menciona o Groq Whisper. Ele
-  precisa da própria chave e das mesmas verificações de normalização de transcript.
-- **Exemplos de integração mais antigos:** acesso ao ClickUp ou à OpenAI só é necessário
+  ricas. A captura básica nêo exige essa chave.
+- **Outra transcriçêo:** a referência do framework menciona o Groq Whisper. Ele
+  precisa da própria chave e das mesmas verificações de normalizaçêo de transcript.
+- **Exemplos de integraçêo mais antigos:** acesso ao ClickUp ou à OpenAI só é necessário
   quando o projeto escolhido realmente chama esses serviços.
 - **Runtimes auxiliares:** alguns scripts opcionais exigem Python. O Playwright está
   incluído para os fluxos de navegador relevantes; os binários do navegador podem
-  precisar de instalação.
+  precisar de instalaçêo.
 
-Uma skill mencionar uma ferramenta MCP não instala essa integração. Peça ao
-assistente para conferir primeiro quais conectores ou clientes de API estão disponíveis.
+Uma skill mencionar uma ferramenta MCP nêo instala essa integraçêo. Peça ao
+assistente para conferir primeiro quais conectores ou clientes de API estêo disponíveis.
 
 ## Configure só o que você usa
 
-`npm run setup` cria o `.env` a partir do [`.env.example`](../.env.example) se ele não
-existir. Deixe as entradas não usadas em branco. Arquivos `.env` existentes são
-preservados, então adicione você mesmo as entradas novas que precisar. O helper da
+`npm run setup` cria o `.env` a partir do [`.env.example`](../.env.example) se ele nêo
+existir. Deixe as entradas nêo usadas em branco. Arquivos `.env` existentes sêo
+preservados, entêo adicione você mesmo as entradas novas que precisar. O helper da
 ElevenLabs carrega o `.env` da raiz; outros provedores precisam do próprio cliente ou
 carregamento de ambiente configurado pelo assistente.
 Mantenha credenciais fora de composições, screenshots e commits.
 
 Confira o preço atual do provedor e o seu saldo antes de chamadas pagas. O student
-kit não inclui créditos de transcrição, geração, locução ou assistente.
+kit nêo inclui créditos de transcriçêo, geraçêo, locuçêo ou assistente.

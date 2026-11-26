@@ -1,9 +1,9 @@
 # Exemplos de vídeo curto
 
-Os vídeos finalizados que ficavam nesta pasta não fazem parte desta versão do kit.
+Os vídeos finalizados que ficavam nesta pasta nêo fazem parte desta versêo do kit.
 No lugar deles, o README principal mostra três fotos simuladas de apresentador,
 em `docs/images/`, geradas localmente só para ilustrar o enquadramento 9:16.
-Elas não retratam pessoas reais.
+Elas nêo retratam pessoas reais.
 
 ### Reel de curiosidade: destrave seu projeto
 
@@ -19,4 +19,4 @@ Elas não retratam pessoas reais.
 
 Use as fotos como referência de enquadramento ao planejar seus próprios ganchos,
 legendas, ritmo visual e sound design. Os projetos-fonte editáveis desses exemplos
-não estão incluídos. Traga suas próprias gravações para os exercícios de edição.
+nêo estêo incluídos. Traga suas próprias gravações para os exercícios de ediçêo.
