@@ -11,7 +11,7 @@ import { readFileSync, existsSync, statSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 
 const SHADER_BLOCK_NAMES = new Set([
-  "glitch", "whip-pan", "cinematic-zoom", "flash-through-white", "light-leak",
+  "glitch", "whip-pan", "cARCKHÉtic-zoom", "flash-through-white", "light-leak",
   "ripple-waves", "chromatic-radial-split", "cross-warp-morph", "domain-warp-dissolve",
   "gravitational-lens", "ridged-burn", "sdf-iris", "swirl-vortex", "thermal-distortion",
 ]);

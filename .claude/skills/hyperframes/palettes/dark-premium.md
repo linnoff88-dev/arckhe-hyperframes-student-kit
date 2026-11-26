@@ -1,6 +1,6 @@
 # Dark / Premium
 
-Tech, finance, luxury, cinematic content.
+Tech, finance, luxury, cARCKHÉtic content.
 
 ```
 #000000 #14213D #FCA311 #E5E5E5 #FFFFFF
